@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body><div class = "container">
+  <div class = "box">
+<h1 id="title" > Survey Form. </h1>
+<main><p id="description"> This survey is made to gather information about you in order to improve our service. Note: none of them will be sold. </p></main>
+<form id = "survey-form">
+<label id="name-label">*Name: <input type = "text" id = "name" placeholder= "Enter your first and family name" required></label>
+<br>
+<br>
+<label id = "email-label">*Email: <input type = "email" id = "email" placeholder= "Enter your email" required></label>
+<br>
+<br>
+<label id = "number-label">*Year of study: <input type = "number" id = "number" placeholder= "Enter your year of study" min = "1" max = "4" required></label>
+  <br><br>
+<label id = "school-label">Choose your School: <select name = "Schools" id ="dropdown" >
+  <option value="None"> </option>
+  <option value="School of Science and Technology"> SST</option>
+  <option value="School of Engineering">SEng</option>
+  <option value ="School of Humanities and Social Sciences">SHSS</option>
+  <option value = "School of Mining and Geo Sciences">SMGS</option>
+  </select></label>
+  <br><br>
+  <label for = "future-school">Will you study at Graduate School?</label>    
+  <label id="future-school"><input type = "radio" name= "Graduate School" value="continue">Yes</label>
+  <label id="future-school"><input type = "radio" name = "Graduate School" value=" not continue">No</label>
+  <br><br>
+  <label>Where do you want to study?
+    <label><input type = "checkbox" name="country" value = "USA">USA</label>
+    <label><input type = "checkbox" name = "country" value = "Germany">Germany</label>
+    <label><input type = "checkbox" name = "country" value = "GB">Great Britain</label>
+    <label><input type="checkbox" name = "country" value = "Japan">Japan   </label>
+    <label><input type = "text" placeholder = "another"></label> 
+    <br><br>
+  </label>
+  <label>If you have any comments you can leave it below:<br>
+    <textarea></textarea>
+  </label>
+  <br><br>
+  <button type="submit" class= "btn btn-primary" id = "submit"><i class="fa fa-paper-plane"></i>Submit</button>
+</form>
+    <br>
+    <footer>&copy 2018 by Zhadyra Khattar</footer>
+  </div>
+</div>
+</body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
